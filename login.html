@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awersome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <!-- SECTION LOGIN -->
+
+    <section class="login">
+        <div class="login__content row">
+            <div class="login__left m-0 p-0 col-12 col-sm-7 col-lg-7">
+                <img src="./img/d51zqrb-bc5c7a5d-6a3a-471c-bd27-9570292ddbcd.jpg" alt="">
+                <div class="blackCover"></div>
+                <div class="pageLogo">
+                    <i class="fa fa-camera-retro text-white"></i>
+                </div>
+            </div>
+            <div class="login__right m-0 p-0 col-12 col-sm-5 col-lg-5">
+                <div class="loginForm">
+                    <h1>User Login</h1>
+                    <div class="chooseUser">
+                        <ul class="nav nav-tabs" id="userTypeTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="legator-tab" data-toggle="tab" href="#legatorLogin" role="tab" aria-controls="home" aria-selected="true">Legator</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="relative-tab" data-toggle="tab" href="#relativeLogin" role="tab" aria-controls="profile" aria-selected="false">Relative</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="userLoginForm tab-pane fade show active" id="legatorLogin" role="tabpanel" aria-labelledby="home-tab">
+                                <form action="">
+                                    <input type="text" name="" id="userName" placeholder="Username...">
+                                    <input type="password" name="" id="password" placeholder="Password...">
+                                    <button type="submit">LOGIN</button>
+                                    <p>Forgot <a href="#">Username / Password ?</a></p>
+                                </form>
+                            </div>
+                            <div class="userLoginForm tab-pane fade" id="relativeLogin" role="tabpanel" aria-labelledby="profile-tab">
+                                <form action="">
+                                    <input type="text" name="" id="relativeName" placeholder="Name">
+                                    <input type="email" name="" id="relativeEmail" placeholder="Email">
+                                    <button type="submit">LOGIN</button>
+                                    <p>Forgot <a href="#">Username /
+                                                Password ?</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a data-toggle="modal" data-target="#signUpModal" id="createAccount" href="#">Create your account <i
+                            class="fa fa-long-arrow-alt-right"></i></a>
+            </div>
+
+            <!-- SIGN UP MODAL -->
+            <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                            <h3>REGISTRATION FORM</h3>
+                            <input type="text" name="" id="signUpName" placeholder="USER NAME">
+                            <input type="password" name="" id="signUpPass" placeholder="PASSWORD">
+                            <input type="date" name="" id="signUpBirth">
+                            <!-- <select name="genders" id="signUpGender">
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                    <option value="">Another</option>
+                                </select> -->
+                            <input type="email" name="" id="signUpEmail" placeholder="EMAIL">
+                            <input type="tel" name="" id="signUpTel" placeholder="PHONE">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn__clear" data-dismiss="modal">Clear</button>
+                            <button type="button" class="btn btn__signUp">Sign
+                                    up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SIGN UP MODAL -->
+
+        </div>
+    </section>
+
+    <!-- SECTION LOGIN -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

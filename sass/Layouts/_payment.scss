@@ -1,0 +1,94 @@
+.payment {
+    .payment__content {
+        .payment__left__col {
+            background-image: url(./../img/anh-nen-toi-hoa-van-cho-dien-thoai_101025691.jpg);
+            padding: 100px 150px;
+            .userWill {
+                position: relative;
+                height: 100vh;
+                background-color: white;
+                .willHeader {
+                    background-color: $color-orange-0;
+                    padding: 20px 50px;
+                    border-bottom: 2px solid black;
+                    h1 {
+                        @include yourWillh1;
+                        text-align: left;
+                        font-size: 60px;
+                    }
+                    h3 {
+                        @include yourWillh3;
+                        text-align: left;
+                    }
+                }
+                .willBody {
+                    display: block;
+                    padding: 50px;
+                    .bodyContent {
+                        height: 100%;
+                        .bodyFooter {
+                            position: absolute;
+                            bottom: 0;
+                            right: 0;
+                            left: 0;
+                            padding: 0 50px;
+                            i {
+                                margin-top: 20px;
+                                font-size: 50px;
+                                margin-left: 550px;
+                                margin-bottom: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .payment__right__col {
+            position: relative;
+            padding: 20px;
+            .payment__table {
+                // position: fixed;
+                
+                width: 100%;
+                h3 {
+                    @include yourWillh3;
+                    text-align: left;
+                    margin-bottom: 15px;
+                }
+                .itemPrice {
+                    padding: 15px 0;
+                    border-top: 1px solid gray;
+                    display: flex;
+                    width: 100%;
+                    .item__col {
+                        display: block;
+                        width: 50%;
+                        margin: 0;
+                    }
+                    .item__right {
+                        text-align: right;
+                    }
+                }
+                .provisional,
+                .total,
+                .paymentFooter {
+                    display: flex;
+                    padding: 15px 0;
+                    border-top: 1px solid gray;
+                    .prov__left,
+                    .total__left,
+                    .footer__left {
+                        width: 50%;
+                        text-align: left;
+                    }
+                    .prov__right,
+                    .total__right,
+                    .footer__right {
+                        width: 50%;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}

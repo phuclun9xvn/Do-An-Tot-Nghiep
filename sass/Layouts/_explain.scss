@@ -1,0 +1,53 @@
+                                        .explain {
+                                            .explain__content {
+                                                display: block;
+                                                padding: 200px 0;
+                                                .explain__row {
+                                                    .explain__left__col {
+                                                        h1 {
+                                                            margin: 0px 0px 18px;
+                                                            text-align: left;
+                                                            font-size: 70px;
+                                                            line-height: 84px;
+                                                            font-weight: 600;
+                                                        }
+                                                    }
+                                                    .explain__right__col {
+                                                        position: relative;
+                                                        .explain__right__content {
+                                                            position: absolute;
+                                                            top: 50%;
+                                                            transform: translateY(-50%);
+                                                            p {
+                                                                display: block;
+                                                                align-items: center;
+                                                                margin: 0px 0px 18px;
+                                                                text-align: left;
+                                                                font-size: 18px;
+                                                                line-height: 26px;
+                                                                font-weight: 200;
+                                                            }
+                                                            button {
+                                                                padding: 10px 20px;
+                                                                background-color: #fff;
+                                                                border-radius: 5px;
+                                                                transition: .2s all;
+                                                                border: 2px solid $color-orange-0;
+                                                                a {
+                                                                    color: black;
+                                                                    font-weight: 600;
+                                                                    ;
+                                                                    text-decoration-line: none;
+                                                                }
+                                                                &:hover {
+                                                                    background-color: $color-orange-0;
+                                                                    a {
+                                                                        color: white;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }

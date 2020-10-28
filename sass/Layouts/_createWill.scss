@@ -1,0 +1,39 @@
+.createWill {
+    display: block;
+    width: 100%;
+    margin: 200px 0;
+    background-color: $color-orange-0;
+
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .createWill__content {
+            display: block;
+            width: 100%;
+            text-align: center;
+
+            h1 {
+                font-size: 70px;
+                line-height: 84px;
+                font-weight: 600;
+                margin-bottom: 25px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 26px;
+                font-weight: 200;
+                margin-bottom: 40px;
+            }
+
+            a {
+                font-size: 13px;
+                line-height: 19px;
+                font-weight: bold;
+                padding: 20px 40px;
+                border: 2px solid black;
+            }
+        }
+    }
+}

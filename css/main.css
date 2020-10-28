@@ -1,0 +1,1074 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login .login__content .login__left {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login__content .login__left img {
+  width: 100%;
+  height: 100%;
+}
+
+.login .login__content .login__left .blackCover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, right top, left top, from(black), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0));
+}
+
+.login .login__content .login__left .pageLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 200px;
+}
+
+.login .login__content .login__right {
+  position: relative;
+}
+
+.login .login__content .login__right .loginForm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+.login .login__content .login__right .loginForm #userTypeTab {
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .login__content .login__right .loginForm #userTypeTab .nav-item .active {
+  color: #f9a825;
+  border-bottom: 2px solid #f9a825;
+}
+
+.login .login__content .login__right .loginForm #userTypeTab .nav-item a {
+  border: 0;
+  color: black;
+}
+
+.login .login__content .login__right .loginForm #userTypeTab .nav-item a:active:focus {
+  color: #f9a825;
+}
+
+.login .login__content .login__right .loginForm h1 {
+  display: block;
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm #legator,
+.login .login__content .login__right .loginForm .userLoginForm #relatives:checked {
+  background-color: #f9a825;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm #userName,
+.login .login__content .login__right .loginForm .userLoginForm #password,
+.login .login__content .login__right .loginForm .userLoginForm #relativeName,
+.login .login__content .login__right .loginForm .userLoginForm #relativeEmail {
+  width: 100%;
+  background-color: #e6e6e6;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 25px;
+  margin-top: 10px;
+  color: #f9a825;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm #userName:focus,
+.login .login__content .login__right .loginForm .userLoginForm #password:focus,
+.login .login__content .login__right .loginForm .userLoginForm #relativeName:focus,
+.login .login__content .login__right .loginForm .userLoginForm #relativeEmail:focus {
+  border: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 25px;
+  background-color: #f9a825;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+  outline: none;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm p {
+  text-align: center;
+  margin-top: 15px;
+  color: gray;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm p a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.login .login__content .login__right .loginForm .userLoginForm p a:hover {
+  color: #f9a825;
+}
+
+.login .login__content .login__right #createAccount {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.login .login__content .login__right #createAccount:hover {
+  color: #f9a825;
+}
+
+.login .login__content #signUpModal .modal-dialog {
+  position: relative;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-header {
+  border: 0;
+  width: 100%;
+  height: 90px;
+  background-image: url(../img/black-and-white-city-houses-skyline.jpg);
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-body {
+  padding: 45px;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-body input {
+  width: 100%;
+  margin-top: 15px;
+  border: 0;
+  border-bottom: 1px solid gray;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-body input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-footer {
+  border: 0;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-footer .btn__clear {
+  background-color: #e6e6e6;
+  border: 0;
+}
+
+.login .login__content #signUpModal .modal-dialog .modal-content .modal-footer .btn__signUp {
+  background-color: #f9a825;
+  border: 0;
+}
+
+@media screen and (max-width: 575px) {
+  .login .login__content .login__left {
+    position: relative;
+  }
+  .login .login__content .login__left img {
+    height: 100vh;
+  }
+  .login .login__content .login__left .pageLogo i {
+    display: none;
+  }
+  .login .login__content .login__right {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+  }
+  .login .login__content .login__right .loginForm {
+    width: 65%;
+  }
+  .login .login__content .login__right .loginForm h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item .active {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item a {
+    border: 0;
+    color: white;
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item a:active:focus {
+    color: #f9a825;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p {
+    color: white;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p a {
+    color: #f9a825;
+    font-size: 15px;
+  }
+  .login .login__content .login__right #createAccount {
+    font-size: 15px;
+    color: white;
+  }
+  .login .login__content .login__right #createAccount:hover {
+    color: #f9a825;
+  }
+  .login .login__content #signUpModal .modal-dialog {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .login .login__content .login__left {
+    position: relative;
+  }
+  .login .login__content .login__left img {
+    height: 100vh;
+  }
+  .login .login__content .login__left .pageLogo i {
+    font-size: 150px;
+  }
+  .login .login__content .login__right {
+    height: 100vh;
+    width: 100%;
+  }
+  .login .login__content .login__right .loginForm {
+    width: 50%;
+  }
+  .login .login__content .login__right .loginForm h1 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item .active {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item a {
+    border: 0;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: black;
+  }
+  .login .login__content .login__right .loginForm #userTypeTab .nav-item a:active:focus {
+    color: #f9a825;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p {
+    color: white;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p a {
+    color: #f9a825;
+    font-size: 15px;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm #userName,
+  .login .login__content .login__right .loginForm .userLoginForm #password,
+  .login .login__content .login__right .loginForm .userLoginForm #relativeName,
+  .login .login__content .login__right .loginForm .userLoginForm #relativeEmail {
+    padding: 5px 10px;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm button {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p {
+    color: black;
+    font-size: 10px;
+  }
+  .login .login__content .login__right .loginForm .userLoginForm p a {
+    font-size: 10px;
+  }
+  .login .login__content .login__right #createAccount {
+    font-size: 15px;
+    color: black;
+  }
+  .login .login__content .login__right #createAccount:hover {
+    color: #f9a825;
+  }
+  .login .login__content #signUpModal .modal-dialog {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 200vh;
+}
+
+.navbar-default {
+  -webkit-transition: 500ms ease;
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.navbar-default.scrolled {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+header .header__content {
+  position: relative;
+}
+
+header .header__content .navbar {
+  padding: 10px 40px;
+}
+
+header .header__content .navbar .navbar-brand h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #f9a825;
+}
+
+header .header__content .navbar #navbarSupportedContent {
+  position: relative;
+}
+
+header .header__content .navbar #navbarSupportedContent .header__right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+header .header__content .navbar #navbarSupportedContent .header__right img {
+  height: auto;
+  width: 30px;
+  border-radius: 25px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+header .header__content .navbar #navbarSupportedContent .header__right button {
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.banner {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/b1.jpg);
+}
+
+.banner .banner__content .banner__col h1 {
+  font-size: 80px;
+  line-height: 96px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.banner .banner__content .banner__col p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.banner .banner__content .banner__col #createWill {
+  border: 0;
+  display: inline;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #f9a825;
+}
+
+.banner .banner__content .banner__col #createWill a {
+  text-align: center;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: white;
+  font-size: 20px;
+}
+
+.explain .explain__content {
+  display: block;
+  padding: 200px 0;
+}
+
+.explain .explain__content .explain__row .explain__left__col h1 {
+  margin: 0px 0px 18px;
+  text-align: left;
+  font-size: 70px;
+  line-height: 84px;
+  font-weight: 600;
+}
+
+.explain .explain__content .explain__row .explain__right__col {
+  position: relative;
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content p {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 18px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+  border: 2px solid #f9a825;
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content button a {
+  color: black;
+  font-weight: 600;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content button:hover {
+  background-color: #f9a825;
+}
+
+.explain .explain__content .explain__row .explain__right__col .explain__right__content button:hover a {
+  color: white;
+}
+
+.benefit .benefit__content .our__benefit .benefit__col {
+  padding: 20px;
+}
+
+.benefit .benefit__content .our__benefit .benefit__col img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 2px solid #f9a825;
+  margin: 0;
+}
+
+.benefit .benefit__content .our__benefit .benefit__col .benefit__title {
+  height: 85px;
+}
+
+.benefit .benefit__content .our__benefit .benefit__col .benefit__title h1 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 50px;
+}
+
+.benefit .benefit__content .our__benefit .benefit__col p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 26px;
+}
+
+.working {
+  padding: 150px 0;
+  margin: 200px 0;
+  background-color: #bcbcbc;
+}
+
+.working #workingTitle {
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.working .working__content .working__left__col {
+  text-align: left;
+}
+
+.working .working__content .working__right__col {
+  padding-left: 100px;
+}
+
+.working .working__content .working__right__col .working__step h1 {
+  max-width: 256px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.working .working__content .working__right__col .working__step p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 200;
+  text-transform: none;
+}
+
+.working .working__content .working__right__col .working__button {
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 20px;
+  width: 40%;
+}
+
+.working .working__content .working__right__col .working__button a {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.contact .contact__content h1 {
+  display: block;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact .contact__content .contact__form #contactForm .contact__form__left .contact__form__item input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 2px solid black;
+  color: #f9a825;
+}
+
+.contact .contact__content .contact__form #contactForm .contact__form__right textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+
+.contact .contact__content .contact__form #contactForm .contact__form__right button {
+  width: 100%;
+  background-color: #f9a825;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.contact .contact__content .contact__form iframe {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.createWill {
+  display: block;
+  width: 100%;
+  margin: 200px 0;
+  background-color: #f9a825;
+}
+
+.createWill .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.createWill .container .createWill__content {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.createWill .container .createWill__content h1 {
+  font-size: 70px;
+  line-height: 84px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.createWill .container .createWill__content p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 200;
+  margin-bottom: 40px;
+}
+
+.createWill .container .createWill__content a {
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: bold;
+  padding: 20px 40px;
+  border: 2px solid black;
+}
+
+footer {
+  display: block;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #2b2b2b;
+  padding: 20px 0;
+}
+
+footer .footer__content h1 {
+  display: block;
+  text-align: left;
+  margin: 20px 0;
+  font-size: 40px;
+  color: #f9a825;
+}
+
+footer .footer__content .footer__row .footer__col ul {
+  list-style-type: none;
+}
+
+footer .footer__content .footer__row .footer__col ul li {
+  margin-bottom: 10px;
+}
+
+footer .footer__content .footer__row .footer__col ul li a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: white;
+}
+
+#createWillHeader {
+  background-color: white;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#createWillHeader .header__content .navbar .navbar-brand h1 {
+  text-align: center;
+}
+
+.yourWill {
+  background-image: url(./../img/anh-nen-toi-hoa-van-cho-dien-thoai_101025691.jpg);
+  padding: 0 300px;
+}
+
+.yourWill .yourWill__content {
+  padding-top: 100px;
+}
+
+.yourWill .yourWill__content .colorSection {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #f9a825;
+}
+
+.yourWill .yourWill__content h1 {
+  margin: 0px 0px 24px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 50px;
+}
+
+.yourWill .yourWill__content h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  margin-top: 50px;
+}
+
+.yourWill .yourWill__content .radioh3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin: 0px;
+}
+
+.yourWill .yourWill__content p {
+  margin: 0px 0px 24px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 50px;
+}
+
+.yourWill .yourWill__content input {
+  border-radius: 10px;
+  display: block;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  width: 100%;
+  border: 2px solid black;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 10px 15px 10px;
+  margin-top: 20px;
+}
+
+.yourWill .yourWill__content input:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.yourWill .yourWill__content button {
+  margin: 40px auto;
+  display: block;
+  padding: 10px 20px;
+  color: black;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.yourWill .yourWill__content button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.yourWill .yourWill__content select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #eeeeee;
+}
+
+.yourWill .yourWill__content select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.yourWill .yourWill__content .radioOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid black;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+.yourWill .yourWill__content .radioOption input {
+  margin: 0;
+  height: 20px;
+  width: 10%;
+  display: inline;
+}
+
+.yourWill .yourWill__content .radioOption label {
+  margin: 0;
+}
+
+.yourWill .yourWill__content textarea {
+  width: 100%;
+}
+
+.yourWill .yourWill__content #account,
+.yourWill .yourWill__content #hasChild,
+.yourWill .yourWill__content #guardian,
+.yourWill .yourWill__content #yesAlternate,
+.yourWill .yourWill__content #personalAlternate,
+.yourWill .yourWill__content #haveRequests {
+  border: 2px solid black;
+  margin-top: 60px;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.yourWill .yourWill__content #account h3,
+.yourWill .yourWill__content #hasChild h3,
+.yourWill .yourWill__content #guardian h3,
+.yourWill .yourWill__content #yesAlternate h3,
+.yourWill .yourWill__content #personalAlternate h3,
+.yourWill .yourWill__content #haveRequests h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 10px;
+  width: 30%;
+}
+
+.yourWill .yourWill__content .yourWillPage {
+  border: 2px solid black;
+  padding: 0 150px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.yourWill .yourWill__content .yourWillPage #childrenTab,
+.yourWill .yourWill__content .yourWillPage #guardianPersonal,
+.yourWill .yourWill__content .yourWillPage #alternateGuardian,
+.yourWill .yourWill__content .yourWillPage #personalGuardian,
+.yourWill .yourWill__content .yourWillPage #requests {
+  border: 0;
+}
+
+.yourWill .yourWill__content .yourWillPage #childrenTab li,
+.yourWill .yourWill__content .yourWillPage #guardianPersonal li,
+.yourWill .yourWill__content .yourWillPage #alternateGuardian li,
+.yourWill .yourWill__content .yourWillPage #personalGuardian li,
+.yourWill .yourWill__content .yourWillPage #requests li {
+  padding: 5px;
+  width: 50%;
+}
+
+.yourWill .yourWill__content .yourWillPage #childrenTab li a,
+.yourWill .yourWill__content .yourWillPage #guardianPersonal li a,
+.yourWill .yourWill__content .yourWillPage #alternateGuardian li a,
+.yourWill .yourWill__content .yourWillPage #personalGuardian li a,
+.yourWill .yourWill__content .yourWillPage #requests li a {
+  border: 2px solid black;
+  color: black;
+}
+
+.yourWill .yourWill__content .yourWillPage #childrenTab li .active,
+.yourWill .yourWill__content .yourWillPage #guardianPersonal li .active,
+.yourWill .yourWill__content .yourWillPage #alternateGuardian li .active,
+.yourWill .yourWill__content .yourWillPage #personalGuardian li .active,
+.yourWill .yourWill__content .yourWillPage #requests li .active {
+  background-color: #eeeeee;
+}
+
+.payment .payment__content .payment__left__col {
+  background-image: url(./../img/anh-nen-toi-hoa-van-cho-dien-thoai_101025691.jpg);
+  padding: 100px 150px;
+}
+
+.payment .payment__content .payment__left__col .userWill {
+  position: relative;
+  height: 100vh;
+  background-color: white;
+}
+
+.payment .payment__content .payment__left__col .userWill .willHeader {
+  background-color: #f9a825;
+  padding: 20px 50px;
+  border-bottom: 2px solid black;
+}
+
+.payment .payment__content .payment__left__col .userWill .willHeader h1 {
+  margin: 0px 0px 24px;
+  text-align: center;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: left;
+  font-size: 60px;
+}
+
+.payment .payment__content .payment__left__col .userWill .willHeader h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  text-align: left;
+}
+
+.payment .payment__content .payment__left__col .userWill .willBody {
+  display: block;
+  padding: 50px;
+}
+
+.payment .payment__content .payment__left__col .userWill .willBody .bodyContent {
+  height: 100%;
+}
+
+.payment .payment__content .payment__left__col .userWill .willBody .bodyContent .bodyFooter {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0 50px;
+}
+
+.payment .payment__content .payment__left__col .userWill .willBody .bodyContent .bodyFooter i {
+  margin-top: 20px;
+  font-size: 50px;
+  margin-left: 550px;
+  margin-bottom: 50px;
+}
+
+.payment .payment__content .payment__right__col {
+  position: relative;
+  padding: 20px;
+}
+
+.payment .payment__content .payment__right__col .payment__table {
+  width: 100%;
+}
+
+.payment .payment__content .payment__right__col .payment__table h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin: 0px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.payment .payment__content .payment__right__col .payment__table .itemPrice {
+  padding: 15px 0;
+  border-top: 1px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.payment .payment__content .payment__right__col .payment__table .itemPrice .item__col {
+  display: block;
+  width: 50%;
+  margin: 0;
+}
+
+.payment .payment__content .payment__right__col .payment__table .itemPrice .item__right {
+  text-align: right;
+}
+
+.payment .payment__content .payment__right__col .payment__table .provisional,
+.payment .payment__content .payment__right__col .payment__table .total,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  border-top: 1px solid gray;
+}
+
+.payment .payment__content .payment__right__col .payment__table .provisional .prov__left,
+.payment .payment__content .payment__right__col .payment__table .provisional .total__left,
+.payment .payment__content .payment__right__col .payment__table .provisional .footer__left,
+.payment .payment__content .payment__right__col .payment__table .total .prov__left,
+.payment .payment__content .payment__right__col .payment__table .total .total__left,
+.payment .payment__content .payment__right__col .payment__table .total .footer__left,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .prov__left,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .total__left,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .footer__left {
+  width: 50%;
+  text-align: left;
+}
+
+.payment .payment__content .payment__right__col .payment__table .provisional .prov__right,
+.payment .payment__content .payment__right__col .payment__table .provisional .total__right,
+.payment .payment__content .payment__right__col .payment__table .provisional .footer__right,
+.payment .payment__content .payment__right__col .payment__table .total .prov__right,
+.payment .payment__content .payment__right__col .payment__table .total .total__right,
+.payment .payment__content .payment__right__col .payment__table .total .footer__right,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .prov__right,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .total__right,
+.payment .payment__content .payment__right__col .payment__table .paymentFooter .footer__right {
+  width: 50%;
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */

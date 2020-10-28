@@ -1,0 +1,31 @@
+.benefit {
+    .benefit__content {
+        .our__benefit {
+            .benefit__col {
+                padding: 20px;
+                img {
+                    height: 170px;
+                    width: 170px;
+                    border-radius: 50%;
+                    border: 2px solid $color-orange-0;
+                    margin: 0;
+                }
+                .benefit__title {
+                    height: 85px;
+                    h1 {
+                        font-size: 30px;
+                        color: black;
+                        font-weight: 600;
+                        line-height: 36px;
+                        margin-top: 50px;
+                    }
+                }
+                p {
+                    font-size: 18px;
+                    font-weight: 200;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
